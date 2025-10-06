@@ -288,29 +288,6 @@ python test_jwt.py
 
 También puedes usar herramientas como Postman o curl. Consulta el archivo `commands-tests.txt` para ejemplos detallados de requests.
 
-## Despliegue en Producción
-
-### Consideraciones de Seguridad
-
-1. **Cambia la JWT_SECRET_KEY** por una clave segura y única
-2. **Usa HTTPS** en producción
-3. **Configura contraseñas fuertes** para la base de datos
-4. **Implementa rate limiting** para prevenir ataques de fuerza bruta
-5. **Monitorea logs** para detectar actividades sospechosas
-
-### Variables de Producción
-
-```env
-JWT_SECRET_KEY=tu_clave_secreta_muy_segura_aqui
-DB_PASSWORD=contraseña_muy_segura
-```
-
-### Comando de Despliegue
-
-```bash
-docker-compose -f docker-compose.yml up -d --build
-```
-
 ## Estructura del Proyecto
 
 ```
