@@ -336,25 +336,4 @@ jwt-microservice/
 - **Docker**: Contenedorización
 - **Adminer**: Interfaz web para bases de datos
 
-## Contribución
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit tus cambios (`git commit -am 'Agrega nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
-
-## Soporte
-
-Si encuentras problemas o tienes preguntas:
-
-1. Revisa los logs de la aplicación
-2. Verifica la configuración de las variables de entorno
-3. Consulta el endpoint `/health` para verificar el estado
-4. Revisa las pruebas automatizadas
-
 ¡El microservicio JWT está listo para usar! 🚀
