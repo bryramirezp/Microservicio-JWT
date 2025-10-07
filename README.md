@@ -1,5 +1,7 @@
 # Microservicio JWT
 
+Este proyecto es un microservicio de autenticación basado en JSON Web Tokens (JWT) desarrollado con Flask y Python. Proporciona una API REST completa para gestionar la autenticación de usuarios, incluyendo registro, login, refresh de tokens, logout y acceso a recursos protegidos. Utiliza MariaDB como base de datos y está completamente dockerizado para facilitar el despliegue.
+
 ## Tecnologías Utilizadas
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -9,10 +11,6 @@
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
 ![Adminer](https://img.shields.io/badge/Adminer-FF6600?style=for-the-badge&logo=adminer&logoColor=white)
 ![PyJWT](https://img.shields.io/badge/PyJWT-000000?style=for-the-badge&logo=python&logoColor=white)
-
-## Descripción
-
-Este proyecto es un microservicio de autenticación basado en JSON Web Tokens (JWT) desarrollado con Flask y Python. Proporciona una API REST completa para gestionar la autenticación de usuarios, incluyendo registro, login, refresh de tokens, logout y acceso a recursos protegidos. Utiliza MariaDB como base de datos y está completamente dockerizado para facilitar el despliegue.
 
 ## Características
 
