@@ -1,5 +1,15 @@
 # Microservicio JWT
 
+## Tecnologías Utilizadas
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
+![Adminer](https://img.shields.io/badge/Adminer-FF6600?style=for-the-badge&logo=adminer&logoColor=white)
+![PyJWT](https://img.shields.io/badge/PyJWT-000000?style=for-the-badge&logo=python&logoColor=white)
+
 ## Descripción
 
 Este proyecto es un microservicio de autenticación basado en JSON Web Tokens (JWT) desarrollado con Flask y Python. Proporciona una API REST completa para gestionar la autenticación de usuarios, incluyendo registro, login, refresh de tokens, logout y acceso a recursos protegidos. Utiliza MariaDB como base de datos y está completamente dockerizado para facilitar el despliegue.
@@ -303,14 +313,5 @@ jwt-microservice/
 ├── .env                # Variables de entorno
 └── README.md           # Este archivo
 ```
-
-## Tecnologías Utilizadas
-
-- **Flask**: Framework web para Python
-- **PyJWT**: Librería para manejo de JWT
-- **PyMySQL**: Conector MySQL para Python
-- **MariaDB**: Base de datos relacional
-- **Docker**: Contenedorización
-- **Adminer**: Interfaz web para bases de datos
 
 ¡El microservicio JWT está listo para usar! 🚀
