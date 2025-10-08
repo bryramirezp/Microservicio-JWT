@@ -287,11 +287,6 @@ def refresh():
                 logger.warning(f"Refresh failed: invalid or revoked refresh token for user {user_id}")
                 return jsonify({'message': 'Invalid refresh token'}), 401
 
-            # Verificar que el refresh token no haya expirado (en la BD)
-            if token_record['expires_at'] and token_record['expires_at'] < datetime.datetime.utcnow():
-                logger.warning(f"Refresh failed: refresh token expired for user {user_id}")
-                return jsonify({'message': 'Refresh token has expired'}), 401
-
             # Generate new access token
             new_access_token = generate_token(user_id, 'access')
             new_access_token_expires = datetime.datetime.utcnow() + datetime.timedelta(
